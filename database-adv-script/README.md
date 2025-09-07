@@ -1,5 +1,5 @@
 # We will talk about advanced SQL Queries 'JOINS' with practical examples.
-## Let us begin. It will be easy to undestand once you get the time to study the short I write
+## Let us begin. It will be easy to undestand once you get the time to study the shorts I write
 
 ### There are a number of joins that help get data you need. It might not be understood practically, but I ask for your brain power a little.
 
@@ -32,7 +32,7 @@ The notebooks include:
 
 # We will talk about advanced SQL Queries 'Subqueries' with practical examples
 
-## Let us begin. It will be easy to undestand once you get the time to study the short I write
+## Let us begin. It will be easy to undestand once you get the time to study the shorts I write
 
 ### There are a number of subqueries that help get data you need. It might not be understood practically, but I ask for your brain power a little.
 
@@ -45,3 +45,13 @@ The notebooks include:
 ## The question - Return all properties above average rating
 
 ## The question - Return all users who have made more than 3 bookings
+
+# We will talk about advanced SQL Queries 'Aggregations and window functions' with practical examples
+
+## Let us begin. It will be easy to undestand once you get the time to study the shorts I write
+
+### There are a number of aggragations and window functions that help get data you need. It might not be understood practically, but I ask for your brain power a little.
+
+#### Window functions and aggregations are used to process complex queries to the extent of grouping and even calculations
+ 
+ ## The question - Return the total number of bookings by each user
