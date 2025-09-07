@@ -147,3 +147,36 @@ ORDER BY b.created_at DESC;
 -- Check execution time
 SHOW PROFILES;
 
+From EXPLAIN output, look for: 
+
+type: Should be "ref" or "range" instead of "ALL" (full table scan)
+possible_keys: Shows which indexes MySQL can use
+key: Shows which index MySQL actually uses
+rows: Number of rows examined (lower is better)
+Extra: Should avoid "Using filesort" and "Using temporary"
+
+Performance improvements you should see:
+
+Query execution time reduced by 50-90%
+Rows examined reduced significantly
+Better query plans with index usage
+
+4. Common Query Patterns That Will Benefit:
+
+Property searches (location + price filtering)
+User booking history (user_id + date sorting)
+Availability checks (property_id + date ranges)
+Rating calculations (property_id + rating aggregation)
+Host analytics (host_id + various metrics)
+
+5. Index Usage Monitoring:
+sql-- Check if indexes are being used
+SELECT 
+    TABLE_NAME,
+    INDEX_NAME,
+    CARDINALITY,
+    SEQ_IN_INDEX,
+    COLUMN_NAME
+FROM INFORMATION_SCHEMA.STATISTICS 
+WHERE TABLE_SCHEMA = 'your_database_name'
+ORDER BY TABLE_NAME, INDEX_NAME, SEQ_IN_INDEX;
