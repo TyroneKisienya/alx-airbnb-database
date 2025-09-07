@@ -16,10 +16,14 @@ The notebooks include:
 - ##### booking table
 - ##### review table
 
-### How to work it out follows; Practical example is to retrieve how users with their booked listings
+### How to work it out follows; Practical example is to retrieve how users with their booked listings and perhaps reviews if need be.
 
 ## The question - Retrieve all bookings with their respective booking individuals. 
 
 ### This query acts like AND in programming. Both sides must meet the criteria in order to be returned. What do I mean. A booking will be returned with a user alongside it. Your name will not be returned in the data that has been pulled by a DBA (Database Administrator) if you have not booked a listing. P.s Any listing not booked will be jumped by this instruction.
 
 - ### give me the booked spaces with the respective occupants.
+
+## The question - Retrieve all properties with or without reviews.
+
+### This query acts like OR in programming. - Either of the criteria should be met in order to satisfy this particular instrution. Very practical. How do we go about it then? This particular query can be used to show the listings that get most frequented, least frequented, need improvement, maitain the form and more. This is for Data analysis and security purposes.

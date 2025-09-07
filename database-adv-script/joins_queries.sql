@@ -4,3 +4,11 @@
 SELECT b.booking_id, b.start_date, b.end_date, b.status, u.first_name, u.last_name, u.email, u.phone_number
 FROM Booking
 INNER JOIN User  u ON b.user_id = u.user_id
+
+--write a query using LEFT JOIN to retrieve all properties and their reviews,
+--including properties that have no listings
+
+SELECT p.property_id, p.name, p.description, p.location, r.review_id, r.property_id, r.user_id, r.rating, r.comment
+FROM Review
+LEFT JOIN Property p ON p,property_id = r.property_id
+ORDER BY r.rating DESC
