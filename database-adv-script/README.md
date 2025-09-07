@@ -27,3 +27,5 @@ The notebooks include:
 ## The question - Retrieve all properties with or without reviews.
 
 ### This query acts like OR in programming. - Either of the criteria should be met in order to satisfy this particular instrution. Very practical. How do we go about it then? This particular query can be used to show the listings that get most frequented, least frequented, need improvement, maitain the form and more. This is for Data analysis and security purposes. PS: The left table is the one left of the equal (=) sign.
+
+## The question - Retrieve all users and all bookings where the status 'canceled', 'pending', 'confirmed'
