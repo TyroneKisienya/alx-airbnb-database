@@ -1,5 +1,5 @@
-# We will talk about advanced SQL Queries with practical examples.
-## Let us begin. It will be easy to undestand once you get the time to studu the short I write
+# We will talk about advanced SQL Queries 'JOINS' with practical examples.
+## Let us begin. It will be easy to undestand once you get the time to study the short I write
 
 ### There are a number of joins that help get data you need. It might not be understood practically, but I ask for your brain power a little.
 
@@ -29,3 +29,17 @@ The notebooks include:
 ### This query acts like OR in programming. - Either of the criteria should be met in order to satisfy this particular instrution. Very practical. How do we go about it then? This particular query can be used to show the listings that get most frequented, least frequented, need improvement, maitain the form and more. This is for Data analysis and security purposes. PS: The left table is the one left of the equal (=) sign.
 
 ## The question - Retrieve all users and all bookings where the status 'canceled', 'pending', 'confirmed'
+
+# We will talk about advanced SQL Queries 'Subqueries' with practical examples
+
+## Let us begin. It will be easy to undestand once you get the time to study the short I write
+
+### There are a number of subqueries that help get data you need. It might not be understood practically, but I ask for your brain power a little.
+
+#### Subqueries are inner queries that might be dependent or independent
+#### Dependent means the outer loop runs and asks the inner loop for something about the data returned
+
+#
+#### Independent means that the inner loop will run even if the outer loop is never executed.
+
+## The question - Return all properties above average rating
