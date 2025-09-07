@@ -43,3 +43,5 @@ The notebooks include:
 #### Independent means that the inner loop will run even if the outer loop is never executed.
 
 ## The question - Return all properties above average rating
+
+## The question - Return all users who have made more than 3 bookings
