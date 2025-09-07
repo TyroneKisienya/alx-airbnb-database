@@ -16,7 +16,7 @@ ORDER BY p,property_id, r.rating DESC
 --write a query using a FULL OUTER JOIN to retrieve all users and all bookings, even if the user
 --has no booking or a booking is not linked to a user
 
-SELECT u.user_id, u.first_name, u.last_name, u.phone_number, b.user_id, b.status, 
+SELECT u.user_id, u.first_name, u.last_name, u.phone_number,b.booking_id, b.status
 FROM User u
-FULL OUTER JOIN Booking b ON b.user_id = u.user_id
+FULL OUTER JOIN Booking b ON u.user_id = b.user_id
 ORDER BY FIELD(status, 'confirmed', 'pending', 'canceled')
